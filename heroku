@@ -93,9 +93,9 @@ _setup_repo () {
 
 _startbot () {
     local bot_dir
-    bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "/"
+    bot_dir=$(cd $WORK_DIR && ls) && mv "$WORK_DIR/$bot_dir" "."
     rm -rf $WORK_DIR
-    cd "/"
+    cd "."
     git init > /dev/null 2>&1
     echo -e ">><< --- >><<  Starting [X]  >><< --- >><<\n" | indent
     bash run

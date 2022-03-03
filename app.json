@@ -33,7 +33,7 @@
                         "value": "https://github.com/ashwinstr/UX-jutsu"
 		},
 		"OWNER_ID": {
-			"description": "Your user_id(s) e.g 123456789 or mutiple ids",
+			"description": "Your user_id(s ) e.g 123456789 or mutiple ids",
 			"required": false
 		},
 		"PREF_BRANCH": {

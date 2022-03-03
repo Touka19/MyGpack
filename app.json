@@ -44,7 +44,7 @@
 	},
 	"buildpacks": [
 		{
-			"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+			"url": "https://github.com/yt-dlp/FFmpeg-Builds/releases/download/latest/ffmpeg-master-latest-linux64-gpl.tar.xz"
 		},
 		{ "url": "https://github.com/ashwinstr/heroku-buildpack-noto-fonts" },
 		{ "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab.git" },
